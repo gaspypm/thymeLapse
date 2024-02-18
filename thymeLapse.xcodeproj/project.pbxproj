@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7223592B82A85900A507C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7223582B82A85900A507C7 /* AppDelegate.swift */; };
+		EB72235B2B82A85900A507C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72235A2B82A85900A507C7 /* SceneDelegate.swift */; };
+		EB72235D2B82A85900A507C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72235C2B82A85900A507C7 /* ViewController.swift */; };
+		EB7223602B82A85900A507C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB72235E2B82A85900A507C7 /* Main.storyboard */; };
+		EB7223622B82A85A00A507C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7223612B82A85A00A507C7 /* Assets.xcassets */; };
+		EB7223652B82A85A00A507C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7223632B82A85A00A507C7 /* LaunchScreen.storyboard */; };
+		EB7223702B82A85A00A507C7 /* thymeLapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72236F2B82A85A00A507C7 /* thymeLapseTests.swift */; };
+		EB72237A2B82A85A00A507C7 /* thymeLapseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7223792B82A85A00A507C7 /* thymeLapseUITests.swift */; };
+		EB72237C2B82A85A00A507C7 /* thymeLapseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72237B2B82A85A00A507C7 /* thymeLapseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB72236C2B82A85A00A507C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB72234D2B82A85900A507C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7223542B82A85900A507C7;
+			remoteInfo = thymeLapse;
+		};
+		EB7223762B82A85A00A507C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB72234D2B82A85900A507C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7223542B82A85900A507C7;
+			remoteInfo = thymeLapse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB7223552B82A85900A507C7 /* thymeLapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thymeLapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7223582B82A85900A507C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB72235A2B82A85900A507C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB72235C2B82A85900A507C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB72235F2B82A85900A507C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7223612B82A85A00A507C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7223642B82A85A00A507C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7223662B82A85A00A507C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB72236B2B82A85A00A507C7 /* thymeLapseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thymeLapseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB72236F2B82A85A00A507C7 /* thymeLapseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thymeLapseTests.swift; sourceTree = "<group>"; };
+		EB7223752B82A85A00A507C7 /* thymeLapseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thymeLapseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7223792B82A85A00A507C7 /* thymeLapseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thymeLapseUITests.swift; sourceTree = "<group>"; };
+		EB72237B2B82A85A00A507C7 /* thymeLapseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thymeLapseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7223522B82A85900A507C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223682B82A85A00A507C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223722B82A85A00A507C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB72234C2B82A85900A507C7 = {
+			isa = PBXGroup;
+			children = (
+				EB7223572B82A85900A507C7 /* thymeLapse */,
+				EB72236E2B82A85A00A507C7 /* thymeLapseTests */,
+				EB7223782B82A85A00A507C7 /* thymeLapseUITests */,
+				EB7223562B82A85900A507C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7223562B82A85900A507C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7223552B82A85900A507C7 /* thymeLapse.app */,
+				EB72236B2B82A85A00A507C7 /* thymeLapseTests.xctest */,
+				EB7223752B82A85A00A507C7 /* thymeLapseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7223572B82A85900A507C7 /* thymeLapse */ = {
+			isa = PBXGroup;
+			children = (
+				EB7223582B82A85900A507C7 /* AppDelegate.swift */,
+				EB72235A2B82A85900A507C7 /* SceneDelegate.swift */,
+				EB72235C2B82A85900A507C7 /* ViewController.swift */,
+				EB72235E2B82A85900A507C7 /* Main.storyboard */,
+				EB7223612B82A85A00A507C7 /* Assets.xcassets */,
+				EB7223632B82A85A00A507C7 /* LaunchScreen.storyboard */,
+				EB7223662B82A85A00A507C7 /* Info.plist */,
+			);
+			path = thymeLapse;
+			sourceTree = "<group>";
+		};
+		EB72236E2B82A85A00A507C7 /* thymeLapseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB72236F2B82A85A00A507C7 /* thymeLapseTests.swift */,
+			);
+			path = thymeLapseTests;
+			sourceTree = "<group>";
+		};
+		EB7223782B82A85A00A507C7 /* thymeLapseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7223792B82A85A00A507C7 /* thymeLapseUITests.swift */,
+				EB72237B2B82A85A00A507C7 /* thymeLapseUITestsLaunchTests.swift */,
+			);
+			path = thymeLapseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7223542B82A85900A507C7 /* thymeLapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB72237F2B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapse" */;
+			buildPhases = (
+				EB7223512B82A85900A507C7 /* Sources */,
+				EB7223522B82A85900A507C7 /* Frameworks */,
+				EB7223532B82A85900A507C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thymeLapse;
+			productName = thymeLapse;
+			productReference = EB7223552B82A85900A507C7 /* thymeLapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB72236A2B82A85A00A507C7 /* thymeLapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7223822B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapseTests" */;
+			buildPhases = (
+				EB7223672B82A85A00A507C7 /* Sources */,
+				EB7223682B82A85A00A507C7 /* Frameworks */,
+				EB7223692B82A85A00A507C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB72236D2B82A85A00A507C7 /* PBXTargetDependency */,
+			);
+			name = thymeLapseTests;
+			productName = thymeLapseTests;
+			productReference = EB72236B2B82A85A00A507C7 /* thymeLapseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7223742B82A85A00A507C7 /* thymeLapseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7223852B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapseUITests" */;
+			buildPhases = (
+				EB7223712B82A85A00A507C7 /* Sources */,
+				EB7223722B82A85A00A507C7 /* Frameworks */,
+				EB7223732B82A85A00A507C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7223772B82A85A00A507C7 /* PBXTargetDependency */,
+			);
+			name = thymeLapseUITests;
+			productName = thymeLapseUITests;
+			productReference = EB7223752B82A85A00A507C7 /* thymeLapseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB72234D2B82A85900A507C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EB7223542B82A85900A507C7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EB72236A2B82A85A00A507C7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB7223542B82A85900A507C7;
+					};
+					EB7223742B82A85A00A507C7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB7223542B82A85900A507C7;
+					};
+				};
+			};
+			buildConfigurationList = EB7223502B82A85900A507C7 /* Build configuration list for PBXProject "thymeLapse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB72234C2B82A85900A507C7;
+			productRefGroup = EB7223562B82A85900A507C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7223542B82A85900A507C7 /* thymeLapse */,
+				EB72236A2B82A85A00A507C7 /* thymeLapseTests */,
+				EB7223742B82A85A00A507C7 /* thymeLapseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7223532B82A85900A507C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7223652B82A85A00A507C7 /* LaunchScreen.storyboard in Resources */,
+				EB7223622B82A85A00A507C7 /* Assets.xcassets in Resources */,
+				EB7223602B82A85900A507C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223692B82A85A00A507C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223732B82A85A00A507C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7223512B82A85900A507C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB72235D2B82A85900A507C7 /* ViewController.swift in Sources */,
+				EB7223592B82A85900A507C7 /* AppDelegate.swift in Sources */,
+				EB72235B2B82A85900A507C7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223672B82A85A00A507C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7223702B82A85A00A507C7 /* thymeLapseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7223712B82A85A00A507C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB72237C2B82A85A00A507C7 /* thymeLapseUITestsLaunchTests.swift in Sources */,
+				EB72237A2B82A85A00A507C7 /* thymeLapseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB72236D2B82A85A00A507C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7223542B82A85900A507C7 /* thymeLapse */;
+			targetProxy = EB72236C2B82A85A00A507C7 /* PBXContainerItemProxy */;
+		};
+		EB7223772B82A85A00A507C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7223542B82A85900A507C7 /* thymeLapse */;
+			targetProxy = EB7223762B82A85A00A507C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB72235E2B82A85900A507C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB72235F2B82A85900A507C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7223632B82A85A00A507C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7223642B82A85A00A507C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB72237D2B82A85A00A507C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB72237E2B82A85A00A507C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7223802B82A85A00A507C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thymeLapse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7223812B82A85A00A507C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thymeLapse/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB7223832B82A85A00A507C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thymeLapse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thymeLapse";
+			};
+			name = Debug;
+		};
+		EB7223842B82A85A00A507C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thymeLapse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thymeLapse";
+			};
+			name = Release;
+		};
+		EB7223862B82A85A00A507C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thymeLapse;
+			};
+			name = Debug;
+		};
+		EB7223872B82A85A00A507C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V3H44TYVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GasparPM.thymeLapseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thymeLapse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7223502B82A85900A507C7 /* Build configuration list for PBXProject "thymeLapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB72237D2B82A85A00A507C7 /* Debug */,
+				EB72237E2B82A85A00A507C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB72237F2B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7223802B82A85A00A507C7 /* Debug */,
+				EB7223812B82A85A00A507C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7223822B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7223832B82A85A00A507C7 /* Debug */,
+				EB7223842B82A85A00A507C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7223852B82A85A00A507C7 /* Build configuration list for PBXNativeTarget "thymeLapseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7223862B82A85A00A507C7 /* Debug */,
+				EB7223872B82A85A00A507C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB72234D2B82A85900A507C7 /* Project object */;
+}
