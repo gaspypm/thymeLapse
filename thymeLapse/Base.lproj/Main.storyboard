@@ -24,6 +24,9 @@
                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="trailing" title="Continue a timelapse" imagePadding="10">
                                     <imageReference key="image" image="plus.rectangle.fill.on.rectangle.fill" catalog="system" symbolScale="large"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="continueTimelapseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JK1-PE-3e4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pT-Qv-A9d">
                                 <rect key="frame" x="16" y="346" width="361" height="35"/>
@@ -32,11 +35,18 @@
                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="trailing" title="Start new timelapse" imagePadding="10">
                                     <imageReference key="image" image="camera.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startTimelapseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loK-Gr-oIo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="continueTimelapseButton" destination="GDx-Gr-uK5" id="b7P-M5-nTY"/>
+                        <outlet property="startTimelapseButton" destination="8pT-Qv-A9d" id="kS7-YM-FD6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
